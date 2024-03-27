@@ -38,13 +38,13 @@ public class INGRESO extends javax.swing.JFrame {
 
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Ingrese las Credenciales"));
 
+        jLUsuario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/labtp3/imagenes/people.png"))); // NOI18N
         jLUsuario.setText("USUARIO :");
 
         JTUsuario.setText("ejemplo@gmail.com");
 
         jLContra.setText("CONTRASEÑA:");
 
-        jBVerificar.setIcon(new javax.swing.ImageIcon("C:\\Users\\carba\\Documents\\1-MIGUEL\\0_CARRERA ULP\\2024\\LABORATORIO I\\EJERCICIOS\\LABTp3\\Image20240327183517.png")); // NOI18N
         jBVerificar.setText("VERIFICAR");
         jBVerificar.setAutoscrolls(true);
         jBVerificar.addActionListener(new java.awt.event.ActionListener() {
@@ -88,9 +88,10 @@ public class INGRESO extends javax.swing.JFrame {
                 .addContainerGap(27, Short.MAX_VALUE))
         );
 
-        jLInicio.setBackground(new java.awt.Color(102, 102, 102));
+        jLInicio.setBackground(new java.awt.Color(204, 204, 204));
         jLInicio.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
         jLInicio.setText("INICIO DE SESION");
+        jLInicio.setOpaque(true);
 
         jDesktopPane1.setLayer(jPanel1, javax.swing.JLayeredPane.DEFAULT_LAYER);
         jDesktopPane1.setLayer(jLInicio, javax.swing.JLayeredPane.DEFAULT_LAYER);
@@ -102,10 +103,8 @@ public class INGRESO extends javax.swing.JFrame {
             .addGroup(jDesktopPane1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jDesktopPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jDesktopPane1Layout.createSequentialGroup()
-                        .addGap(76, 76, 76)
-                        .addComponent(jLInicio))
-                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLInicio))
                 .addContainerGap())
         );
         jDesktopPane1Layout.setVerticalGroup(
