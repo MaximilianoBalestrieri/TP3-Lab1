@@ -158,7 +158,7 @@ public class INGRESO extends javax.swing.JFrame {
              JOptionPane.showMessageDialog(this, "Bienvenido");
          }else{
               JOptionPane.showMessageDialog(this, "Usuario o contraseña erronea");
-              System.out.println(" ");
+              
          }
         
         
