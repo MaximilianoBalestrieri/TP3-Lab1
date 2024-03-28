@@ -192,7 +192,7 @@ public class INGRESO extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new INGRESO().setVisible(true);
+               new INGRESO().setVisible(true);
             }
         });
     }
